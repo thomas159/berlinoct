@@ -1,0 +1,21 @@
+columns:
+    cat_id:
+        label: cat_id
+        type: number
+        searchable: true
+        sortable: true
+    img:
+        label: img
+        type: text
+        searchable: true
+        sortable: true
+    url:
+        label: url
+        type: text
+        searchable: true
+        sortable: true
+    text:
+        label: text
+        type: text
+        searchable: true
+        sortable: true

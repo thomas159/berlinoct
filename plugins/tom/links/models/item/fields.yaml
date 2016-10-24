@@ -1,0 +1,21 @@
+fields:
+    cat_id:
+        label: cat_id
+        oc.commentPosition: ''
+        span: auto
+        type: number
+    img:
+        label: img
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    url:
+        label: url
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    text:
+        label: Text
+        oc.commentPosition: ''
+        span: auto
+        type: text

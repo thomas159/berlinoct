@@ -1,0 +1,4 @@
+columns:
+    cat:
+        label: Category
+        type: text

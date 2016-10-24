@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table tom_links_items'
+    - builder_table_create_tom_links_items.php
+1.0.3:
+    - 'Created table tom_links_cats'
+    - builder_table_create_tom_links_cats.php

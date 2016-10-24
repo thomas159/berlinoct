@@ -1,0 +1,30 @@
+1477303378a:1:{s:8:"home.htm";a:6:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:267:"==
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	@include('includes.head')
+</head>
+<body>
+	@include('includes.header')	
+<div class="main">		
+	@yield('content')	
+</div>
+<footer id="footer">
+	@include('includes.footer')
+</footer>
+</body>
+</html>";s:5:"mtime";i:1476363257;s:6:"markup";s:263:"<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	@include('includes.head')
+</head>
+<body>
+	@include('includes.header')	
+<div class="main">		
+	@yield('content')	
+</div>
+<footer id="footer">
+	@include('includes.footer')
+</footer>
+</body>
+</html>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

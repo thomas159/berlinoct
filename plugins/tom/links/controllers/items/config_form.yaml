@@ -1,0 +1,10 @@
+name: Items
+form: $/tom/links/models/item/fields.yaml
+modelClass: Tom\Links\Models\Item
+defaultRedirect: tom/links/items
+create:
+    redirect: 'tom/links/items/update/:id'
+    redirectClose: tom/links/items
+update:
+    redirect: tom/links/items
+    redirectClose: tom/links/items

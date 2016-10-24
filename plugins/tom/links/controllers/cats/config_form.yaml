@@ -1,0 +1,10 @@
+name: Cats
+form: $/tom/links/models/cat/fields.yaml
+modelClass: Tom\Links\Models\Cat
+defaultRedirect: tom/links/cats
+create:
+    redirect: 'tom/links/cats/update/:id'
+    redirectClose: tom/links/cats
+update:
+    redirect: tom/links/cats
+    redirectClose: tom/links/cats

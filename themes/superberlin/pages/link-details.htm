@@ -1,0 +1,12 @@
+title = "Link Details"
+url = "/link/:id"
+is_hidden = 0
+
+[builderDetails]
+modelClass = "Tom\Links\Models\Item"
+identifierValue = "{{ :id }}"
+modelKeyColumn = "id"
+displayColumn = "id"
+notFoundMessage = "Record not found"
+==
+{% component 'builderDetails' %}

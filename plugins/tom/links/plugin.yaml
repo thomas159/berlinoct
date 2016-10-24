@@ -1,0 +1,16 @@
+plugin:
+    name: 'tom.links::lang.plugin.name'
+    description: 'tom.links::lang.plugin.description'
+    author: tom
+    icon: oc-icon-link
+    homepage: ''
+navigation:
+    'Link Items':
+        label: 'tom.links::lang.plugin.name'
+        url: tom/links/items
+        icon: icon-life-ring
+        sideMenu:
+            'Link Cats':
+                label: 'Link Cats'
+                url: tom/links/cats
+                icon: icon-sitemap
